@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reactivities", "Reactivities\Reactivities.csproj", "{406988C0-EC23-4B8B-BDEB-4AE7E3D5CD63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{0948A7E9-C8FA-4FB5-8D57-C39C1D85BF28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence", "Persistence\Persistence.csproj", "{DED79290-C5F4-4E2C-9F05-128404B4A066}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{406988C0-EC23-4B8B-BDEB-4AE7E3D5CD63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{406988C0-EC23-4B8B-BDEB-4AE7E3D5CD63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{406988C0-EC23-4B8B-BDEB-4AE7E3D5CD63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{406988C0-EC23-4B8B-BDEB-4AE7E3D5CD63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0948A7E9-C8FA-4FB5-8D57-C39C1D85BF28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0948A7E9-C8FA-4FB5-8D57-C39C1D85BF28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0948A7E9-C8FA-4FB5-8D57-C39C1D85BF28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0948A7E9-C8FA-4FB5-8D57-C39C1D85BF28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DED79290-C5F4-4E2C-9F05-128404B4A066}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DED79290-C5F4-4E2C-9F05-128404B4A066}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DED79290-C5F4-4E2C-9F05-128404B4A066}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DED79290-C5F4-4E2C-9F05-128404B4A066}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3A3F2570-C5F1-48CE-9D37-EFE4D13AF130}
+	EndGlobalSection
+EndGlobal
