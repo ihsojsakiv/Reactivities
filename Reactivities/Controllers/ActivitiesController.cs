@@ -1,11 +1,11 @@
 ﻿using System;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
+using Microsoft.EntityFrameworkCore;
+using System.Threading.Tasks;
 
 using Domain;
 using Persistence;
-using Microsoft.EntityFrameworkCore;
-using System.Threading.Tasks;
 
 namespace Reactivities.Controllers
 {
