@@ -13,6 +13,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Persistence;
 using Microsoft.EntityFrameworkCore;
+using Application.Activities;
+using Application.Core;
+using Reactivities.Extensions;
 
 namespace Reactivities
 {
@@ -29,17 +32,7 @@ namespace Reactivities
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddDbContext<DataContext>(opt =>
-            {
-                opt.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
-            });
-            services.AddCors(opt =>
-            {
-                opt.AddPolicy("CorsPolicy", policy =>
-                {
-                    policy.AllowAnyHeader().AllowAnyMethod().WithOrigins("http://localhost:3000");
-                });
-            });
+            services.AddApplicationServices(Configuration);
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Reactivities", Version = "v1" });
